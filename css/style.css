@@ -1,0 +1,35 @@
+body {
+   padding: 20px;
+}
+
+.text {
+   width: 500px;
+   padding: 5px;
+   font-size: 1.3rem;
+   border: 1px solid green;
+}
+
+button {
+   width: 50px;
+   padding: 5px;
+   margin: 0px 5px;
+}
+
+span {
+   margin-left: 5px;
+}
+
+.close {
+   display: none;
+}
+
+.disabled-block {
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+.block {
+   margin-top: 5px;
+}
