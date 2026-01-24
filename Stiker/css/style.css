@@ -1,0 +1,48 @@
+body {
+   padding: 20px;
+}
+
+.text{
+   display: flex;
+   flex-direction: column;
+   min-width: 500px;
+   margin: 10px auto;
+}
+
+textarea {
+   min-width: 200px;
+   width: 100%;
+   height: 200px;
+   relize: vertical;
+   border: 1px solid grey;
+   padding: 5px;
+   font-size: 1.2rem;
+}
+
+button {
+   margin: 10px 5px;
+   padding: 10px;
+   font-size: 1.3rem;
+   width: 80px;
+   min-width: 50px;
+}
+
+.stiker {
+   display: flex;
+   flex-wrap: wrap;
+   min-width: 500px;
+   margin: 0px 10px;
+   gap: 10px;
+}
+
+.block {
+   min-width: 200px;
+   flex-basis: 0%;
+   border: 1px solid green;
+   padding: 5px;
+}
+
+p {
+
+   text-align: justify;
+}
