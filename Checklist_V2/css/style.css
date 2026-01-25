@@ -1,0 +1,35 @@
+body {
+   padding: 20px;
+   text-align: center;
+}
+
+#input, #list .newInp {
+   display: inline-block;
+   border: 1px solid grey;
+   width: 500px;
+   padding: 8px;
+   font-size: 14px;
+}
+
+#list {
+   font-size: 14px;
+   margin: 10px;
+   display: block;
+   padding: 0;
+   list-style-type: none;
+}
+
+#list span {
+   margin-right: 5px;
+}
+#list .remove, #list .mark {
+   color: blue;
+   cursor: pointer;
+}
+#list .remove:hover, #list .mark:hover {
+   text-decoration: underline;
+}
+
+#list .done {
+   text-decoration: line-through;
+}
