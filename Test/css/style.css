@@ -1,0 +1,32 @@
+body {
+   font-size: 16px;
+   padding: 20px;
+}
+
+.right {
+   color: green;
+}
+.wrong {
+   color: red;
+}
+
+input {
+   border: 1px solid grey;
+   padding: 5px;
+}
+
+p {
+   margin: 10px 0px;
+}
+
+button {
+   width: 150px;
+   margin: 20px;
+   padding: 5px;
+   background: lightblue;
+}
+
+span {
+   margin: 0px 15px 0px 5px;
+}
+
